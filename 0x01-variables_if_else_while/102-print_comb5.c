@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - return a combination of number
- * Return: return 0 if successful
+ * Return: Always 0 (success)
  */
 int main(void)
 {
