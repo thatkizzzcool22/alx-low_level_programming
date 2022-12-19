@@ -5,7 +5,7 @@
  * @s: char to check
  *
  * Description: This will reverse a string
- * Return: 0
+ * Return: 0 is success
  */
 void rev_string(char *s)
 {
@@ -21,6 +21,6 @@ void rev_string(char *s)
 	{
 		d = s[b];
 		s[b] = s[c];
-		s[c];
+		s[c] = d;
 	}
 }
