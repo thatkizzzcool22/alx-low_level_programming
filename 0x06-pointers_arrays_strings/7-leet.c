@@ -2,7 +2,8 @@
 /**
  * leet - encodes a string into 1337
  * @s: string to encode
- * Return: address of s
+ *
+ * Return: A pointer to the encoded string
  */
 char *leet(char *s)
 {
@@ -18,6 +19,5 @@ char *leet(char *s)
 				s[i] = b[j];
 		}
 	}
-	return (0);
+	return (s);
 }
-
