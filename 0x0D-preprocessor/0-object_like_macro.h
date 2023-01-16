@@ -1,10 +1,6 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef OBJECT_LIKE_MARCO_H
+#define OBJECT_LIKE_MARCO_H
 
-#include <stdio.h>
-#include "0-object_like_macro.h"
-#include "1-pi.h"
-#include "1-function_like_macro.h"
-#include "4-sum.h"
+#define SIZE 1024
 
 #endif
